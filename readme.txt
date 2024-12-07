@@ -5,7 +5,7 @@ Requirement：
 -MongoDB 5.0.0+
 
 Deployment：
--Download RECARS.war
+-Download all compressed files from '/resource' into the same folder, and extract them to obtain 'RECARS.war'.
 -Put it to the directory webapps of the Tomcat
 -Set configuration: modify /conf/context.xml by setting <Resources cachingAllowed="true" cacheMaxSize="100000" />
 -Start the server and run the demo
